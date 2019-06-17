@@ -12,10 +12,11 @@ import com.javamail.EmailJava.scheduler.service.CheckEmail;
 public class EmailScheduler {
 
 	@Autowired
-    private CheckEmail check;	
-	
-     @Scheduled(cron = "*/15 * * * * *")
-	 public void checkEmail() {
-	    this.check.setEmailProperties();
-	 }
+	private CheckEmail check;
+
+	// @Scheduled(cron = "*/15 * * * * *")
+	public void checkEmail() {
+		this.check.setEmailProperties();
+	}
+
 }

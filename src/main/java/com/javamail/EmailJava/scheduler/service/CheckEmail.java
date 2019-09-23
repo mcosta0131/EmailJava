@@ -26,15 +26,15 @@ public class CheckEmail {
 //		props.put("mail.smtp.auth", "true");
 //		props.put("mail.smtp.port", "465");
 		
-		//PROPERTIES OUTLOOK
-		props.put("mail.smtp.auth", "true");
-		props.put("mail.smtp.starttls.enable", "true");
-		props.put("mail.smtp.host", "outlook.office365.com");
-		props.put("mail.smtp.port", "587");
+//		//PROPERTIES OUTLOOK
+//		props.put("mail.smtp.auth", "true");
+//		props.put("mail.smtp.starttls.enable", "true");
+//		props.put("mail.smtp.host", "outlook.office365.com");
+//		props.put("mail.smtp.port", "587");
 		
 		
 		System.out.println("SETTING PROPERTIES....");
-		createSession(props);
+//		createSession(props);
 	}
 
 	public void createSession(Properties props) {

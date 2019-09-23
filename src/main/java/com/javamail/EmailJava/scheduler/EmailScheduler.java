@@ -14,7 +14,7 @@ public class EmailScheduler {
 	@Autowired
 	private CheckEmail check;
 
-	// @Scheduled(cron = "*/15 * * * * *")
+	 @Scheduled(cron = "*/5 * * * * *")
 	public void checkEmail() {
 		this.check.setEmailProperties();
 	}
